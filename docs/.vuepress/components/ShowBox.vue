@@ -59,7 +59,7 @@ export default {
     },
     turnTo () {
       if (this.link.includes('http')) {
-        window.location.href = this.link
+        location.href = this.link
       } else {
         this.$router.push(this.link)
       }

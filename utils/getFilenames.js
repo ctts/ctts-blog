@@ -25,8 +25,7 @@ var filehelper = {
                 }
             }
         })
-        // console.log(filenames)
-        filenames.sort(); // 排序
+        filenames.reverse(); // 排序
         return filenames;
     }
 }

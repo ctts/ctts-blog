@@ -30,9 +30,9 @@ export default {
         title: 'VUE'
       }, {
         img: 'https://s1.ax1x.com/2020/03/24/8qADHA.jpg',
-        link: '/pages/blogs/Others/企业git基本操作',
-        Content: '技术不仅仅是前端',
-        title: '其他技能'
+        link: '/pages/blogs/Daily/',
+        Content: '记录每天的奇思妙想',
+        title: '日常记录'
       }, {
         img: 'https://s1.ax1x.com/2020/03/24/8qEgaR.jpg',
         link: '/pages/Share/',

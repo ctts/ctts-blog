@@ -6,6 +6,7 @@ const filehelper = require(rootpath + '/utils/getFilenames.js');
 
 module.exports = {
     // 博客
+    '/pages/blogs/Daily/': utils.genSidebar('Daily', filehelper.getFileName(docs + "/pages/blogs/Daily/"), false),
     '/pages/blogs/JavaScript/': utils.genSidebar('JavaScript', filehelper.getFileName(docs + "/pages/blogs/JavaScript/"), false),
     '/pages/blogs/CSS/': utils.genSidebar('CSS', filehelper.getFileName(docs + "/pages/blogs/CSS/"), false),
     '/pages/blogs/Vue/': utils.genSidebar('Vue', filehelper.getFileName(docs + "/pages/blogs/Vue/"), false),
