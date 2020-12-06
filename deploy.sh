@@ -5,6 +5,7 @@ set -e
 
 git add .
 git commit -m 'add blog'
+git push
 # 生成静态文件
 npm run docs:build
 npm run build
