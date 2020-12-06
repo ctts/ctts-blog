@@ -25,6 +25,6 @@ module.exports = [
     { text: '关于我', link: '/about/' },
     { text: '分类', link: '/guide/' },
     { text: '优秀工具分享', link: '/pages/Share/' },
-    { text: '优秀文章分享', link: '/pages/Article/' },
+    { text: '优秀文章分享', link: '/pages/article/' },
     { text: 'GitHub', link: 'https://github.com/ctts' },
 ]

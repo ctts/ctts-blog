@@ -40,7 +40,7 @@ export default {
         title: '工具分享'
       }, {
         img: 'https://s1.ax1x.com/2020/03/24/8qEWPx.jpg',
-        link: '/pages/Article/',
+        link: '/pages/article/',
         Content: '交流才能进步',
         title: '文章分享'
       }]
