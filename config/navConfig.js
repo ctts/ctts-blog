@@ -13,9 +13,9 @@ module.exports = [
             { text: '其他', link: getFirstFile('/pages/blogs/Others/') }
         ]
     },
-    { text: '关于我', link: getFirstFile('/about/') },
-    { text: '分类', link: getFirstFile('/guide/') },
-    { text: '优秀工具分享', link: getFirstFile('/pages/Share/') },
-    { text: '优秀文章分享', link: getFirstFile('/pages/article/') },
+    { text: '关于我', link: '/about/'},
+    { text: '分类', link: '/guide/' },
+    { text: '优秀工具分享', link:'/pages/Share/'},
+    { text: '优秀文章分享', link: '/pages/article/' },
     { text: 'GitHub', link: `https://github.com/ctts` },
 ]

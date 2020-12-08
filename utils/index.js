@@ -16,7 +16,6 @@ const utils = {
         const realPath = path.join(process.cwd(), '/docs', dirPath)
         const dir = fs.readdirSync(realPath)
         dir.reverse()
-        console.log(dir);
         return dir.length > 0 ? path.join(dirPath, dir[0]) : dirPath
     }
 }
